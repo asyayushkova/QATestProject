@@ -1,16 +1,15 @@
-import java.util.Arrays;
-
 public class ArrayStringArray
   {
-      //Scanner scanner = new Scanner(System.in);
-      //System.out.println ("ВВедите число");
-      //int n = scanner.nextInt();
+      public  static void main (String []args) {
+          //Scanner scanner = new Scanner(System.in);
+          //System.out.println ("ВВедите число");
+          //int n = scanner.nextInt();
 
-      int [] arrayOfInt = {1,4,7,3,5};
+          String[] arrStr = new String[]{"1", "4", "7", "3", "5"};
 
-      String arrayOfString = Arrays.toString [arrayOfInt];
+          String str = arrStr.toString();
 
-      System.out.println ("arrayOfString");
+          System.out.println("arrayOfString");
 
-
+      }
   }

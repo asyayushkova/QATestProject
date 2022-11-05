@@ -1,6 +1,6 @@
-import java.util.Scanner;//задача найти факториал и вызвать из функции мейн
+import java.util.Scanner;
 
-public class Main {
+public class Factorial {
     public static int factorial(int n) {
         int fac = 1;
        for (int i = 1; i<=n; i++) {
