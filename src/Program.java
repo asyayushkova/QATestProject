@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//сумма чисел количества введенного пользователем
 
 public class Program {
     public static void main(String[] args)
