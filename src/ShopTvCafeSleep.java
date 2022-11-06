@@ -7,7 +7,7 @@ public class ShopTvCafeSleep {
         int t = sc.nextInt();
         System.out.println("Введите количество денег: ");
         double n = sc.nextInt();
-        if (t > 8 & t < 12 & n > 10) {
+        if ((t > 8) & (t < 12) & (n > 10)) {
             System.out.println("Идите в магазин");
         } else if (t > 12 & n > 50) {
             System.out.println("Идите в кафе");
